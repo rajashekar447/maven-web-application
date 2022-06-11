@@ -3,6 +3,7 @@ node{
 echo "Job name is: ${env.JOB_NAME}"
 echo "Node name is: ${env. NODE_NAME}"
  
+ 
  def mavenHOME = tool name: 'maven3.8.5'
  
  //Get the code from Github Repo   
