@@ -33,10 +33,6 @@ echo "Node name is: ${env. NODE_NAME}"
 def mavenHOME = tool name: 'maven3.8.5'
 
 try{
-}//try Closing
-
-//node closing
-
 //Get the code from Github Repo   
 stage('CheckoutCode'){
 git branch: 'development', credentialsId: '6459f670-7d47-497d-a441-05cd2e83905b', url: 'https://github.com/rajashekar447/maven-web-application.git' 
